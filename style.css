@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 body{
     font-size: arial,sans-serif;
@@ -75,4 +76,83 @@ section h2{
 
 .project-item ul{
     margin-top:8px;
+=======
+
+body{
+    font-size: arial,sans-serif;
+    background-color: whitesmoke;
+    margin:0px;
+    padding : 20px;
+
+}
+.resume{
+    max-width: 800px;
+    background:white;
+    margin : auto;
+    padding :30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray
+     
+}
+
+header{
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 15px;
+
+}
+header h1{
+    margin: 0;
+    color: black out;
+}
+
+section{
+    margin-top: 20px;
+
+}
+
+section h2{
+    color: black;
+    border-bottom: 1px solid gray;
+    padding-bottom: 5px;
+
+}
+
+.edu-item{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+
+    margin-top:15px;
+}
+
+.edu-left h3{
+    margin:0;
+    font-size:20px;
+}
+
+.edu-left p{
+    margin:3px 0;
+}
+
+.edu-right{
+    min-width:160px;
+    text-align:right;
+}
+
+.edu-right p{
+    font-weight:bold;
+}
+
+.project-item{
+    margin-top:15px;
+}
+
+.project-item h3{
+    margin-bottom:8px;
+}
+
+.project-item ul{
+    margin-top:8px;
+>>>>>>> c8df4de5989998c09ab27ff10c6809a3286137c3
 }
